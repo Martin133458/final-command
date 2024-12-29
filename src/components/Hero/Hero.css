@@ -1,0 +1,36 @@
+
+
+.title{
+  display: grid;
+  justify-content: center;
+    padding:  25px;
+
+}
+
+.section{
+    background-image: url(public/video_2024-12-23_17-45-00.gif);
+   height: 750px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   img {
+    max-width: 100%;
+   }
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   
+    
+}
+.text4{
+    margin: 10px;
+    font-size: 20px;
+    width: 500px;
+    color : white ;
+    
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}

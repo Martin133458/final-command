@@ -1,0 +1,71 @@
+
+
+.station {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+  
+   
+  }
+  
+  .videoWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .videoBackground {
+    object-fit: cover; 
+    width: 100%;
+    height:100%;
+  }
+  
+  .oybek {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    position: relative;
+    z-index: 1; 
+    padding: 20px; 
+  }
+  
+  .text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    font-family: 'Courier New', Courier, monospace;
+    p{
+        font-size: 20px;
+    }
+    li{
+        font-size: 15px;
+    }
+    color: greenyellow;
+    margin-right: 20px; 
+  }
+  .text1 {
+    margin-top:20px;
+    font-size: 20px;
+    max-width: 500px;
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .image {
+    max-width: 40%; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
